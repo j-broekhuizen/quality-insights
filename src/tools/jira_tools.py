@@ -61,6 +61,88 @@ def get_sprint_metrics(sprint_name: str | None = None) -> dict:
 
 
 @tool
+def get_tickets_by_priority(priority: str | None = None, status: str | None = None) -> dict:
+    """Get tickets filtered by priority and optionally by status.
+
+    Args:
+        priority: Priority level to filter by. Options: 'critical', 'high', 'medium', 'low'.
+                 If None, returns all tickets grouped by priority.
+        status: Optional status filter. Options: 'done', 'in_progress', 'blocked', 'todo'.
+               If None, returns tickets regardless of status.
+
+    Returns:
+        Dictionary with tickets grouped by priority including:
+        - For specific priority: list of tickets with that priority
+        - For all priorities: grouped dictionary with counts and tickets per priority
+        - Each ticket includes: id, title, priority, status, story_points, assigned_to, sprint_name
+    """
+    data = load_jira_data()
+    sprints = data["sprints"]
+
+    # Collect all tickets with sprint context
+    all_tickets = []
+    for sprint in sprints:
+        for ticket in sprint["tickets"]:
+            ticket_with_sprint = ticket.copy()
+            ticket_with_sprint["sprint_name"] = sprint["sprint_name"]
+            all_tickets.append(ticket_with_sprint)
+
+    # Filter by status if provided
+    if status:
+        all_tickets = [t for t in all_tickets if t["status"] == status]
+
+    # Filter by priority if provided
+    if priority:
+        filtered_tickets = [t for t in all_tickets if t.get("priority") == priority]
+        return {
+            "priority": priority,
+            "status_filter": status,
+            "total_count": len(filtered_tickets),
+            "tickets": [
+                {
+                    "id": t["id"],
+                    "title": t["title"],
+                    "priority": t.get("priority", "unknown"),
+                    "status": t["status"],
+                    "story_points": t["story_points"],
+                    "assigned_to": t["assigned_to"],
+                    "sprint_name": t["sprint_name"],
+                }
+                for t in filtered_tickets
+            ],
+        }
+
+    # Group by priority if no specific priority requested
+    grouped = {"critical": [], "high": [], "medium": [], "low": []}
+    for ticket in all_tickets:
+        ticket_priority = ticket.get("priority", "unknown")
+        if ticket_priority in grouped:
+            grouped[ticket_priority].append(
+                {
+                    "id": ticket["id"],
+                    "title": ticket["title"],
+                    "priority": ticket_priority,
+                    "status": ticket["status"],
+                    "story_points": ticket["story_points"],
+                    "assigned_to": ticket["assigned_to"],
+                    "sprint_name": ticket["sprint_name"],
+                }
+            )
+
+    return {
+        "status_filter": status,
+        "summary": {
+            "critical": len(grouped["critical"]),
+            "high": len(grouped["high"]),
+            "medium": len(grouped["medium"]),
+            "low": len(grouped["low"]),
+            "total": sum(len(v) for v in grouped.values()),
+        },
+        "tickets_by_priority": grouped,
+    }
+
+
+@tool
 def get_velocity_trend(num_sprints: int = 6) -> dict:
     """Analyze velocity trends over recent sprints.
 
