@@ -1,0 +1,472 @@
+{
+  "sprints": [
+    {
+      "sprint_name": "Sprint 2024-10-1",
+      "start_date": "2024-10-01",
+      "end_date": "2024-10-14",
+      "planned_points": 45,
+      "completed_points": 42,
+      "tickets": [
+        {
+          "id": "QUAL-101",
+          "title": "Implement dashboard filters for quality metrics",
+          "status": "done",
+          "story_points": 5,
+          "assigned_to": "Alice Johnson",
+          "created_at": "2024-10-01T09:00:00Z",
+          "completed_at": "2024-10-08T16:30:00Z"
+        },
+        {
+          "id": "QUAL-102",
+          "title": "Add pagination to test results view",
+          "status": "done",
+          "story_points": 3,
+          "assigned_to": "Bob Chen",
+          "created_at": "2024-10-01T09:15:00Z",
+          "completed_at": "2024-10-10T14:20:00Z"
+        },
+        {
+          "id": "QUAL-103",
+          "title": "Integrate Zephyr API for test data",
+          "status": "done",
+          "story_points": 8,
+          "assigned_to": "Carol Davis",
+          "created_at": "2024-10-01T10:00:00Z",
+          "completed_at": "2024-10-13T17:45:00Z"
+        },
+        {
+          "id": "QUAL-104",
+          "title": "Create incident trend visualization",
+          "status": "done",
+          "story_points": 5,
+          "assigned_to": "David Martinez",
+          "created_at": "2024-10-02T11:00:00Z",
+          "completed_at": "2024-10-12T15:30:00Z"
+        },
+        {
+          "id": "QUAL-105",
+          "title": "Implement real-time alerts for critical incidents",
+          "status": "done",
+          "story_points": 8,
+          "assigned_to": "Eve Wilson",
+          "created_at": "2024-10-03T09:30:00Z",
+          "completed_at": "2024-10-14T16:00:00Z"
+        },
+        {
+          "id": "QUAL-106",
+          "title": "Add export functionality for quality reports",
+          "status": "done",
+          "story_points": 5,
+          "assigned_to": "Frank Brown",
+          "created_at": "2024-10-04T10:00:00Z",
+          "completed_at": "2024-10-13T14:30:00Z"
+        },
+        {
+          "id": "QUAL-107",
+          "title": "Optimize database queries for metrics aggregation",
+          "status": "done",
+          "story_points": 8,
+          "assigned_to": "Grace Lee",
+          "created_at": "2024-10-05T09:00:00Z",
+          "completed_at": "2024-10-14T18:00:00Z"
+        },
+        {
+          "id": "QUAL-108",
+          "title": "Fix UI rendering issues on mobile devices",
+          "status": "in_progress",
+          "story_points": 3,
+          "assigned_to": "Henry Taylor",
+          "created_at": "2024-10-06T11:00:00Z",
+          "completed_at": null
+        }
+      ]
+    },
+    {
+      "sprint_name": "Sprint 2024-10-2",
+      "start_date": "2024-10-15",
+      "end_date": "2024-10-28",
+      "planned_points": 50,
+      "completed_points": 48,
+      "tickets": [
+        {
+          "id": "QUAL-109",
+          "title": "Implement automated test result parsing",
+          "status": "done",
+          "story_points": 8,
+          "assigned_to": "Alice Johnson",
+          "created_at": "2024-10-15T09:00:00Z",
+          "completed_at": "2024-10-22T16:00:00Z"
+        },
+        {
+          "id": "QUAL-110",
+          "title": "Add team performance comparison dashboard",
+          "status": "done",
+          "story_points": 8,
+          "assigned_to": "Bob Chen",
+          "created_at": "2024-10-15T09:30:00Z",
+          "completed_at": "2024-10-25T17:30:00Z"
+        },
+        {
+          "id": "QUAL-111",
+          "title": "Create incident root cause analysis report",
+          "status": "done",
+          "story_points": 5,
+          "assigned_to": "Carol Davis",
+          "created_at": "2024-10-16T10:00:00Z",
+          "completed_at": "2024-10-24T15:00:00Z"
+        },
+        {
+          "id": "QUAL-112",
+          "title": "Integrate Jira API for ticket tracking",
+          "status": "done",
+          "story_points": 8,
+          "assigned_to": "David Martinez",
+          "created_at": "2024-10-17T09:00:00Z",
+          "completed_at": "2024-10-26T16:30:00Z"
+        },
+        {
+          "id": "QUAL-113",
+          "title": "Add sprint velocity tracking",
+          "status": "done",
+          "story_points": 5,
+          "assigned_to": "Eve Wilson",
+          "created_at": "2024-10-18T10:00:00Z",
+          "completed_at": "2024-10-27T14:00:00Z"
+        },
+        {
+          "id": "QUAL-114",
+          "title": "Implement flaky test detection algorithm",
+          "status": "done",
+          "story_points": 8,
+          "assigned_to": "Frank Brown",
+          "created_at": "2024-10-19T09:30:00Z",
+          "completed_at": "2024-10-28T17:00:00Z"
+        },
+        {
+          "id": "QUAL-115",
+          "title": "Create user preferences management",
+          "status": "done",
+          "story_points": 3,
+          "assigned_to": "Grace Lee",
+          "created_at": "2024-10-20T11:00:00Z",
+          "completed_at": "2024-10-26T13:30:00Z"
+        },
+        {
+          "id": "QUAL-116",
+          "title": "Add notification system for quality thresholds",
+          "status": "done",
+          "story_points": 5,
+          "assigned_to": "Henry Taylor",
+          "created_at": "2024-10-21T10:00:00Z",
+          "completed_at": "2024-10-28T15:45:00Z"
+        },
+        {
+          "id": "QUAL-108",
+          "title": "Fix UI rendering issues on mobile devices",
+          "status": "blocked",
+          "story_points": 2,
+          "assigned_to": "Henry Taylor",
+          "created_at": "2024-10-06T11:00:00Z",
+          "completed_at": null
+        }
+      ]
+    },
+    {
+      "sprint_name": "Sprint 2024-11-1",
+      "start_date": "2024-10-29",
+      "end_date": "2024-11-11",
+      "planned_points": 48,
+      "completed_points": 35,
+      "tickets": [
+        {
+          "id": "QUAL-117",
+          "title": "Refactor database schema for better performance",
+          "status": "done",
+          "story_points": 13,
+          "assigned_to": "Alice Johnson",
+          "created_at": "2024-10-29T09:00:00Z",
+          "completed_at": "2024-11-10T18:00:00Z"
+        },
+        {
+          "id": "QUAL-118",
+          "title": "Add custom metric definitions",
+          "status": "done",
+          "story_points": 5,
+          "assigned_to": "Bob Chen",
+          "created_at": "2024-10-29T09:30:00Z",
+          "completed_at": "2024-11-08T15:00:00Z"
+        },
+        {
+          "id": "QUAL-119",
+          "title": "Implement role-based access control",
+          "status": "done",
+          "story_points": 8,
+          "assigned_to": "Carol Davis",
+          "created_at": "2024-10-30T10:00:00Z",
+          "completed_at": "2024-11-11T16:30:00Z"
+        },
+        {
+          "id": "QUAL-120",
+          "title": "Create API documentation portal",
+          "status": "done",
+          "story_points": 5,
+          "assigned_to": "David Martinez",
+          "created_at": "2024-10-31T09:00:00Z",
+          "completed_at": "2024-11-09T14:00:00Z"
+        },
+        {
+          "id": "QUAL-121",
+          "title": "Add data retention policy enforcement",
+          "status": "in_progress",
+          "story_points": 8,
+          "assigned_to": "Eve Wilson",
+          "created_at": "2024-11-01T10:00:00Z",
+          "completed_at": null
+        },
+        {
+          "id": "QUAL-122",
+          "title": "Implement backup and recovery procedures",
+          "status": "todo",
+          "story_points": 8,
+          "assigned_to": "Frank Brown",
+          "created_at": "2024-11-02T09:30:00Z",
+          "completed_at": null
+        },
+        {
+          "id": "QUAL-123",
+          "title": "Fix security vulnerabilities in dependencies",
+          "status": "done",
+          "story_points": 4,
+          "assigned_to": "Grace Lee",
+          "created_at": "2024-11-03T11:00:00Z",
+          "completed_at": "2024-11-07T16:00:00Z"
+        },
+        {
+          "id": "QUAL-124",
+          "title": "Add audit logging for compliance",
+          "status": "todo",
+          "story_points": 5,
+          "assigned_to": "Henry Taylor",
+          "created_at": "2024-11-04T10:00:00Z",
+          "completed_at": null
+        }
+      ]
+    },
+    {
+      "sprint_name": "Sprint 2024-11-2",
+      "start_date": "2024-11-12",
+      "end_date": "2024-11-25",
+      "planned_points": 42,
+      "completed_points": 38,
+      "tickets": [
+        {
+          "id": "QUAL-125",
+          "title": "Implement multi-language support",
+          "status": "done",
+          "story_points": 8,
+          "assigned_to": "Alice Johnson",
+          "created_at": "2024-11-12T09:00:00Z",
+          "completed_at": "2024-11-20T17:00:00Z"
+        },
+        {
+          "id": "QUAL-126",
+          "title": "Add advanced filtering and search",
+          "status": "done",
+          "story_points": 8,
+          "assigned_to": "Bob Chen",
+          "created_at": "2024-11-12T09:30:00Z",
+          "completed_at": "2024-11-22T16:00:00Z"
+        },
+        {
+          "id": "QUAL-127",
+          "title": "Create data visualization library",
+          "status": "done",
+          "story_points": 8,
+          "assigned_to": "Carol Davis",
+          "created_at": "2024-11-13T10:00:00Z",
+          "completed_at": "2024-11-24T15:30:00Z"
+        },
+        {
+          "id": "QUAL-128",
+          "title": "Implement caching layer for performance",
+          "status": "done",
+          "story_points": 5,
+          "assigned_to": "David Martinez",
+          "created_at": "2024-11-14T09:00:00Z",
+          "completed_at": "2024-11-21T14:00:00Z"
+        },
+        {
+          "id": "QUAL-129",
+          "title": "Add webhook integrations for external systems",
+          "status": "done",
+          "story_points": 5,
+          "assigned_to": "Eve Wilson",
+          "created_at": "2024-11-15T10:00:00Z",
+          "completed_at": "2024-11-23T16:30:00Z"
+        },
+        {
+          "id": "QUAL-130",
+          "title": "Create scheduled report generation",
+          "status": "done",
+          "story_points": 4,
+          "assigned_to": "Frank Brown",
+          "created_at": "2024-11-16T09:30:00Z",
+          "completed_at": "2024-11-24T13:00:00Z"
+        },
+        {
+          "id": "QUAL-131",
+          "title": "Fix memory leaks in data processing",
+          "status": "in_progress",
+          "story_points": 4,
+          "assigned_to": "Grace Lee",
+          "created_at": "2024-11-17T11:00:00Z",
+          "completed_at": null
+        }
+      ]
+    },
+    {
+      "sprint_name": "Sprint 2024-12-1",
+      "start_date": "2024-11-26",
+      "end_date": "2024-12-09",
+      "planned_points": 45,
+      "completed_points": 41,
+      "tickets": [
+        {
+          "id": "QUAL-132",
+          "title": "Implement anomaly detection for metrics",
+          "status": "done",
+          "story_points": 8,
+          "assigned_to": "Alice Johnson",
+          "created_at": "2024-11-26T09:00:00Z",
+          "completed_at": "2024-12-05T17:30:00Z"
+        },
+        {
+          "id": "QUAL-133",
+          "title": "Add trend analysis and forecasting",
+          "status": "done",
+          "story_points": 8,
+          "assigned_to": "Bob Chen",
+          "created_at": "2024-11-26T09:30:00Z",
+          "completed_at": "2024-12-06T16:00:00Z"
+        },
+        {
+          "id": "QUAL-134",
+          "title": "Create executive dashboard view",
+          "status": "done",
+          "story_points": 5,
+          "assigned_to": "Carol Davis",
+          "created_at": "2024-11-27T10:00:00Z",
+          "completed_at": "2024-12-07T15:00:00Z"
+        },
+        {
+          "id": "QUAL-135",
+          "title": "Implement AI-powered insights generation",
+          "status": "done",
+          "story_points": 13,
+          "assigned_to": "David Martinez",
+          "created_at": "2024-11-28T09:00:00Z",
+          "completed_at": "2024-12-09T18:00:00Z"
+        },
+        {
+          "id": "QUAL-136",
+          "title": "Add metric correlation analysis",
+          "status": "done",
+          "story_points": 5,
+          "assigned_to": "Eve Wilson",
+          "created_at": "2024-11-29T10:00:00Z",
+          "completed_at": "2024-12-08T14:30:00Z"
+        },
+        {
+          "id": "QUAL-137",
+          "title": "Create mobile app for quality insights",
+          "status": "in_progress",
+          "story_points": 13,
+          "assigned_to": "Frank Brown",
+          "created_at": "2024-11-30T09:30:00Z",
+          "completed_at": null
+        },
+        {
+          "id": "QUAL-138",
+          "title": "Fix PDF export formatting issues",
+          "status": "done",
+          "story_points": 2,
+          "assigned_to": "Grace Lee",
+          "created_at": "2024-12-01T11:00:00Z",
+          "completed_at": "2024-12-04T13:00:00Z"
+        }
+      ]
+    },
+    {
+      "sprint_name": "Sprint 2024-12-2",
+      "start_date": "2024-12-10",
+      "end_date": "2024-12-23",
+      "planned_points": 38,
+      "completed_points": 36,
+      "tickets": [
+        {
+          "id": "QUAL-139",
+          "title": "Implement SSO authentication",
+          "status": "done",
+          "story_points": 8,
+          "assigned_to": "Alice Johnson",
+          "created_at": "2024-12-10T09:00:00Z",
+          "completed_at": "2024-12-18T16:30:00Z"
+        },
+        {
+          "id": "QUAL-140",
+          "title": "Add compliance reporting features",
+          "status": "done",
+          "story_points": 8,
+          "assigned_to": "Bob Chen",
+          "created_at": "2024-12-10T09:30:00Z",
+          "completed_at": "2024-12-20T17:00:00Z"
+        },
+        {
+          "id": "QUAL-141",
+          "title": "Create data export templates",
+          "status": "done",
+          "story_points": 3,
+          "assigned_to": "Carol Davis",
+          "created_at": "2024-12-11T10:00:00Z",
+          "completed_at": "2024-12-17T14:00:00Z"
+        },
+        {
+          "id": "QUAL-142",
+          "title": "Implement rate limiting for API endpoints",
+          "status": "done",
+          "story_points": 5,
+          "assigned_to": "David Martinez",
+          "created_at": "2024-12-12T09:00:00Z",
+          "completed_at": "2024-12-19T15:30:00Z"
+        },
+        {
+          "id": "QUAL-143",
+          "title": "Add bulk data import functionality",
+          "status": "done",
+          "story_points": 8,
+          "assigned_to": "Eve Wilson",
+          "created_at": "2024-12-13T10:00:00Z",
+          "completed_at": "2024-12-22T16:00:00Z"
+        },
+        {
+          "id": "QUAL-144",
+          "title": "Create onboarding tutorial for new users",
+          "status": "done",
+          "story_points": 4,
+          "assigned_to": "Frank Brown",
+          "created_at": "2024-12-14T09:30:00Z",
+          "completed_at": "2024-12-21T13:30:00Z"
+        },
+        {
+          "id": "QUAL-145",
+          "title": "Fix timezone handling issues",
+          "status": "in_progress",
+          "story_points": 2,
+          "assigned_to": "Grace Lee",
+          "created_at": "2024-12-15T11:00:00Z",
+          "completed_at": null
+        }
+      ]
+    }
+  ]
+}

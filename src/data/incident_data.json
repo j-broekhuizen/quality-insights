@@ -1,0 +1,211 @@
+{
+  "incidents": [
+    {
+      "id": "INC-301",
+      "title": "API timeout causing checkout failures",
+      "severity": "critical",
+      "reported_at": "2024-10-15T14:30:00Z",
+      "resolved_at": "2024-10-15T18:45:00Z",
+      "affected_users": 1200,
+      "root_cause": "Database connection pool exhaustion during peak traffic"
+    },
+    {
+      "id": "INC-302",
+      "title": "Dashboard widgets not loading for some users",
+      "severity": "medium",
+      "reported_at": "2024-10-18T09:15:00Z",
+      "resolved_at": "2024-10-18T14:30:00Z",
+      "affected_users": 45,
+      "root_cause": "Caching layer misconfiguration after deployment"
+    },
+    {
+      "id": "INC-303",
+      "title": "Email notifications not being sent",
+      "severity": "high",
+      "reported_at": "2024-10-22T11:00:00Z",
+      "resolved_at": "2024-10-22T16:30:00Z",
+      "affected_users": 500,
+      "root_cause": "SMTP server connection timeout due to firewall rule change"
+    },
+    {
+      "id": "INC-304",
+      "title": "Search functionality returning incorrect results",
+      "severity": "high",
+      "reported_at": "2024-10-25T10:45:00Z",
+      "resolved_at": "2024-10-26T09:15:00Z",
+      "affected_users": 780,
+      "root_cause": "Elasticsearch index corruption after node failure"
+    },
+    {
+      "id": "INC-305",
+      "title": "Mobile app crashes on iOS 18",
+      "severity": "medium",
+      "reported_at": "2024-10-28T13:20:00Z",
+      "resolved_at": "2024-10-30T16:45:00Z",
+      "affected_users": 320,
+      "root_cause": "Incompatibility with new iOS WebView API"
+    },
+    {
+      "id": "INC-306",
+      "title": "Report generation timing out for large datasets",
+      "severity": "low",
+      "reported_at": "2024-11-02T08:30:00Z",
+      "resolved_at": "2024-11-04T15:00:00Z",
+      "affected_users": 12,
+      "root_cause": "Inefficient SQL query causing performance degradation"
+    },
+    {
+      "id": "INC-307",
+      "title": "Data sync failing between primary and backup databases",
+      "severity": "critical",
+      "reported_at": "2024-11-05T03:15:00Z",
+      "resolved_at": "2024-11-05T11:30:00Z",
+      "affected_users": 0,
+      "root_cause": "Replication lag due to network partition"
+    },
+    {
+      "id": "INC-308",
+      "title": "File upload functionality broken",
+      "severity": "high",
+      "reported_at": "2024-11-08T14:00:00Z",
+      "resolved_at": "2024-11-08T19:45:00Z",
+      "affected_users": 650,
+      "root_cause": "S3 bucket permissions changed during security audit"
+    },
+    {
+      "id": "INC-309",
+      "title": "Authentication service experiencing intermittent failures",
+      "severity": "critical",
+      "reported_at": "2024-11-12T16:30:00Z",
+      "resolved_at": "2024-11-12T23:00:00Z",
+      "affected_users": 2100,
+      "root_cause": "Redis cluster memory exhaustion causing session loss"
+    },
+    {
+      "id": "INC-310",
+      "title": "Incorrect currency conversion in payment flow",
+      "severity": "high",
+      "reported_at": "2024-11-15T12:45:00Z",
+      "resolved_at": "2024-11-16T10:30:00Z",
+      "affected_users": 89,
+      "root_cause": "Stale exchange rate cache not being refreshed"
+    },
+    {
+      "id": "INC-311",
+      "title": "Dashboard performance degradation",
+      "severity": "medium",
+      "reported_at": "2024-11-18T09:00:00Z",
+      "resolved_at": "2024-11-19T14:15:00Z",
+      "affected_users": 450,
+      "root_cause": "Missing database index on frequently queried column"
+    },
+    {
+      "id": "INC-312",
+      "title": "PDF export generating corrupted files",
+      "severity": "low",
+      "reported_at": "2024-11-21T11:30:00Z",
+      "resolved_at": "2024-11-22T16:00:00Z",
+      "affected_users": 28,
+      "root_cause": "Memory leak in PDF generation library"
+    },
+    {
+      "id": "INC-313",
+      "title": "Real-time notifications delayed by 5+ minutes",
+      "severity": "medium",
+      "reported_at": "2024-11-24T15:45:00Z",
+      "resolved_at": "2024-11-25T11:00:00Z",
+      "affected_users": 890,
+      "root_cause": "Message queue backlog due to increased event volume"
+    },
+    {
+      "id": "INC-314",
+      "title": "API rate limiting incorrectly blocking legitimate users",
+      "severity": "high",
+      "reported_at": "2024-11-27T13:15:00Z",
+      "resolved_at": "2024-11-28T09:30:00Z",
+      "affected_users": 234,
+      "root_cause": "Rate limit configuration error after deployment"
+    },
+    {
+      "id": "INC-315",
+      "title": "Webhook delivery failures to external systems",
+      "severity": "medium",
+      "reported_at": "2024-11-30T10:00:00Z",
+      "resolved_at": "2024-12-01T15:45:00Z",
+      "affected_users": 67,
+      "root_cause": "SSL certificate expiration on webhook endpoint"
+    },
+    {
+      "id": "INC-316",
+      "title": "Login page not loading in Firefox",
+      "severity": "low",
+      "reported_at": "2024-12-03T08:45:00Z",
+      "resolved_at": "2024-12-04T12:30:00Z",
+      "affected_users": 156,
+      "root_cause": "JavaScript polyfill missing for older browser version"
+    },
+    {
+      "id": "INC-317",
+      "title": "Background job processing stuck",
+      "severity": "critical",
+      "reported_at": "2024-12-06T02:30:00Z",
+      "resolved_at": "2024-12-06T08:15:00Z",
+      "affected_users": 1500,
+      "root_cause": "Deadlock in job queue causing worker threads to hang"
+    },
+    {
+      "id": "INC-318",
+      "title": "Incorrect permissions applied to new user accounts",
+      "severity": "high",
+      "reported_at": "2024-12-09T14:30:00Z",
+      "resolved_at": "2024-12-10T11:00:00Z",
+      "affected_users": 43,
+      "root_cause": "Role assignment logic error in user provisioning service"
+    },
+    {
+      "id": "INC-319",
+      "title": "Chart visualization rendering with incorrect colors",
+      "severity": "low",
+      "reported_at": "2024-12-12T10:15:00Z",
+      "resolved_at": "2024-12-13T14:00:00Z",
+      "affected_users": 95,
+      "root_cause": "CSS color variable override in theme update"
+    },
+    {
+      "id": "INC-320",
+      "title": "Data export timing out for reports over 1000 rows",
+      "severity": "medium",
+      "reported_at": "2024-12-15T11:45:00Z",
+      "resolved_at": "2024-12-16T16:30:00Z",
+      "affected_users": 178,
+      "root_cause": "Export service memory limit too low for large datasets"
+    },
+    {
+      "id": "INC-321",
+      "title": "Session timeout occurring too quickly",
+      "severity": "low",
+      "reported_at": "2024-12-18T09:30:00Z",
+      "resolved_at": "2024-12-19T13:15:00Z",
+      "affected_users": 234,
+      "root_cause": "Session TTL configuration reduced accidentally in deployment"
+    },
+    {
+      "id": "INC-322",
+      "title": "Metrics aggregation showing incorrect totals",
+      "severity": "high",
+      "reported_at": "2024-12-21T15:00:00Z",
+      "resolved_at": "2024-12-22T10:45:00Z",
+      "affected_users": 567,
+      "root_cause": "Timezone conversion error in aggregation pipeline"
+    },
+    {
+      "id": "INC-323",
+      "title": "SSO integration failing for enterprise customers",
+      "severity": "critical",
+      "reported_at": "2024-12-24T07:15:00Z",
+      "resolved_at": null,
+      "affected_users": 890,
+      "root_cause": null
+    }
+  ]
+}

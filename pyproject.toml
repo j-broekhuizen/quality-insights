@@ -1,0 +1,22 @@
+[project]
+name = "quality-insights"
+version = "0.1.0"
+description = "Multi-agent quality analysis demo using LangChain DeepAgents"
+requires-python = ">=3.11"
+dependencies = [
+    "deepagents>=0.2.0",
+    "pydantic>=2.0.0",
+    "python-dotenv>=1.0.0",
+    "langchain-core>=0.3.0",
+    "langgraph-cli[inmem]>=0.1.55",
+    "langsmith-fetch",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-asyncio>=0.24.0",
+]
+
+[tool.uv]
+package = true

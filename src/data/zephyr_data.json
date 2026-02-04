@@ -1,0 +1,234 @@
+{
+  "test_cycles": [
+    {
+      "cycle_name": "Regression-Oct-Week1",
+      "start_date": "2024-10-01",
+      "end_date": "2024-10-07",
+      "executions": [
+        {"test_id": "TEST-001", "test_name": "User login with valid credentials", "status": "passed", "executed_at": "2024-10-02T10:15:00Z", "duration_seconds": 12.3, "cycle": "Regression-Oct-Week1"},
+        {"test_id": "TEST-002", "test_name": "User login with invalid password", "status": "passed", "executed_at": "2024-10-02T10:17:00Z", "duration_seconds": 8.5, "cycle": "Regression-Oct-Week1"},
+        {"test_id": "TEST-003", "test_name": "Password reset flow", "status": "passed", "executed_at": "2024-10-02T10:20:00Z", "duration_seconds": 15.7, "cycle": "Regression-Oct-Week1"},
+        {"test_id": "TEST-004", "test_name": "Dashboard loads with correct metrics", "status": "passed", "executed_at": "2024-10-02T10:25:00Z", "duration_seconds": 22.1, "cycle": "Regression-Oct-Week1"},
+        {"test_id": "TEST-005", "test_name": "Export quality report as PDF", "status": "passed", "executed_at": "2024-10-02T10:30:00Z", "duration_seconds": 18.9, "cycle": "Regression-Oct-Week1"},
+        {"test_id": "TEST-006", "test_name": "Filter incidents by severity", "status": "passed", "executed_at": "2024-10-02T10:35:00Z", "duration_seconds": 14.2, "cycle": "Regression-Oct-Week1"},
+        {"test_id": "TEST-007", "test_name": "Create new incident report", "status": "passed", "executed_at": "2024-10-02T10:40:00Z", "duration_seconds": 16.8, "cycle": "Regression-Oct-Week1"},
+        {"test_id": "TEST-008", "test_name": "Update incident status", "status": "passed", "executed_at": "2024-10-02T10:45:00Z", "duration_seconds": 11.5, "cycle": "Regression-Oct-Week1"},
+        {"test_id": "TEST-009", "test_name": "View sprint velocity trends", "status": "passed", "executed_at": "2024-10-02T10:50:00Z", "duration_seconds": 19.3, "cycle": "Regression-Oct-Week1"},
+        {"test_id": "TEST-010", "test_name": "Test pass rate calculation", "status": "failed", "executed_at": "2024-10-02T10:55:00Z", "duration_seconds": 13.7, "cycle": "Regression-Oct-Week1"}
+      ]
+    },
+    {
+      "cycle_name": "Regression-Oct-Week2",
+      "start_date": "2024-10-08",
+      "end_date": "2024-10-14",
+      "executions": [
+        {"test_id": "TEST-001", "test_name": "User login with valid credentials", "status": "passed", "executed_at": "2024-10-09T10:15:00Z", "duration_seconds": 11.8, "cycle": "Regression-Oct-Week2"},
+        {"test_id": "TEST-002", "test_name": "User login with invalid password", "status": "passed", "executed_at": "2024-10-09T10:17:00Z", "duration_seconds": 9.1, "cycle": "Regression-Oct-Week2"},
+        {"test_id": "TEST-003", "test_name": "Password reset flow", "status": "passed", "executed_at": "2024-10-09T10:20:00Z", "duration_seconds": 14.9, "cycle": "Regression-Oct-Week2"},
+        {"test_id": "TEST-004", "test_name": "Dashboard loads with correct metrics", "status": "passed", "executed_at": "2024-10-09T10:25:00Z", "duration_seconds": 21.5, "cycle": "Regression-Oct-Week2"},
+        {"test_id": "TEST-005", "test_name": "Export quality report as PDF", "status": "passed", "executed_at": "2024-10-09T10:30:00Z", "duration_seconds": 17.3, "cycle": "Regression-Oct-Week2"},
+        {"test_id": "TEST-006", "test_name": "Filter incidents by severity", "status": "passed", "executed_at": "2024-10-09T10:35:00Z", "duration_seconds": 13.8, "cycle": "Regression-Oct-Week2"},
+        {"test_id": "TEST-007", "test_name": "Create new incident report", "status": "passed", "executed_at": "2024-10-09T10:40:00Z", "duration_seconds": 15.6, "cycle": "Regression-Oct-Week2"},
+        {"test_id": "TEST-008", "test_name": "Update incident status", "status": "passed", "executed_at": "2024-10-09T10:45:00Z", "duration_seconds": 12.2, "cycle": "Regression-Oct-Week2"},
+        {"test_id": "TEST-009", "test_name": "View sprint velocity trends", "status": "passed", "executed_at": "2024-10-09T10:50:00Z", "duration_seconds": 18.7, "cycle": "Regression-Oct-Week2"},
+        {"test_id": "TEST-010", "test_name": "Test pass rate calculation", "status": "passed", "executed_at": "2024-10-09T10:55:00Z", "duration_seconds": 14.1, "cycle": "Regression-Oct-Week2"}
+      ]
+    },
+    {
+      "cycle_name": "Regression-Oct-Week3",
+      "start_date": "2024-10-15",
+      "end_date": "2024-10-21",
+      "executions": [
+        {"test_id": "TEST-001", "test_name": "User login with valid credentials", "status": "passed", "executed_at": "2024-10-16T10:15:00Z", "duration_seconds": 12.5, "cycle": "Regression-Oct-Week3"},
+        {"test_id": "TEST-002", "test_name": "User login with invalid password", "status": "passed", "executed_at": "2024-10-16T10:17:00Z", "duration_seconds": 8.9, "cycle": "Regression-Oct-Week3"},
+        {"test_id": "TEST-003", "test_name": "Password reset flow", "status": "passed", "executed_at": "2024-10-16T10:20:00Z", "duration_seconds": 16.2, "cycle": "Regression-Oct-Week3"},
+        {"test_id": "TEST-004", "test_name": "Dashboard loads with correct metrics", "status": "passed", "executed_at": "2024-10-16T10:25:00Z", "duration_seconds": 23.4, "cycle": "Regression-Oct-Week3"},
+        {"test_id": "TEST-005", "test_name": "Export quality report as PDF", "status": "passed", "executed_at": "2024-10-16T10:30:00Z", "duration_seconds": 19.7, "cycle": "Regression-Oct-Week3"},
+        {"test_id": "TEST-006", "test_name": "Filter incidents by severity", "status": "passed", "executed_at": "2024-10-16T10:35:00Z", "duration_seconds": 15.1, "cycle": "Regression-Oct-Week3"},
+        {"test_id": "TEST-007", "test_name": "Create new incident report", "status": "passed", "executed_at": "2024-10-16T10:40:00Z", "duration_seconds": 17.9, "cycle": "Regression-Oct-Week3"},
+        {"test_id": "TEST-008", "test_name": "Update incident status", "status": "failed", "executed_at": "2024-10-16T10:45:00Z", "duration_seconds": 10.3, "cycle": "Regression-Oct-Week3"},
+        {"test_id": "TEST-009", "test_name": "View sprint velocity trends", "status": "passed", "executed_at": "2024-10-16T10:50:00Z", "duration_seconds": 20.5, "cycle": "Regression-Oct-Week3"},
+        {"test_id": "TEST-010", "test_name": "Test pass rate calculation", "status": "passed", "executed_at": "2024-10-16T10:55:00Z", "duration_seconds": 13.2, "cycle": "Regression-Oct-Week3"}
+      ]
+    },
+    {
+      "cycle_name": "Regression-Oct-Week4",
+      "start_date": "2024-10-22",
+      "end_date": "2024-10-28",
+      "executions": [
+        {"test_id": "TEST-001", "test_name": "User login with valid credentials", "status": "passed", "executed_at": "2024-10-23T10:15:00Z", "duration_seconds": 11.3, "cycle": "Regression-Oct-Week4"},
+        {"test_id": "TEST-002", "test_name": "User login with invalid password", "status": "passed", "executed_at": "2024-10-23T10:17:00Z", "duration_seconds": 9.4, "cycle": "Regression-Oct-Week4"},
+        {"test_id": "TEST-003", "test_name": "Password reset flow", "status": "passed", "executed_at": "2024-10-23T10:20:00Z", "duration_seconds": 15.1, "cycle": "Regression-Oct-Week4"},
+        {"test_id": "TEST-004", "test_name": "Dashboard loads with correct metrics", "status": "failed", "executed_at": "2024-10-23T10:25:00Z", "duration_seconds": 8.7, "cycle": "Regression-Oct-Week4"},
+        {"test_id": "TEST-005", "test_name": "Export quality report as PDF", "status": "passed", "executed_at": "2024-10-23T10:30:00Z", "duration_seconds": 18.2, "cycle": "Regression-Oct-Week4"},
+        {"test_id": "TEST-006", "test_name": "Filter incidents by severity", "status": "passed", "executed_at": "2024-10-23T10:35:00Z", "duration_seconds": 14.6, "cycle": "Regression-Oct-Week4"},
+        {"test_id": "TEST-007", "test_name": "Create new incident report", "status": "passed", "executed_at": "2024-10-23T10:40:00Z", "duration_seconds": 16.4, "cycle": "Regression-Oct-Week4"},
+        {"test_id": "TEST-008", "test_name": "Update incident status", "status": "passed", "executed_at": "2024-10-23T10:45:00Z", "duration_seconds": 11.8, "cycle": "Regression-Oct-Week4"},
+        {"test_id": "TEST-009", "test_name": "View sprint velocity trends", "status": "passed", "executed_at": "2024-10-23T10:50:00Z", "duration_seconds": 19.1, "cycle": "Regression-Oct-Week4"},
+        {"test_id": "TEST-010", "test_name": "Test pass rate calculation", "status": "passed", "executed_at": "2024-10-23T10:55:00Z", "duration_seconds": 13.9, "cycle": "Regression-Oct-Week4"}
+      ]
+    },
+    {
+      "cycle_name": "Regression-Nov-Week1",
+      "start_date": "2024-10-29",
+      "end_date": "2024-11-04",
+      "executions": [
+        {"test_id": "TEST-001", "test_name": "User login with valid credentials", "status": "passed", "executed_at": "2024-10-30T10:15:00Z", "duration_seconds": 12.7, "cycle": "Regression-Nov-Week1"},
+        {"test_id": "TEST-002", "test_name": "User login with invalid password", "status": "passed", "executed_at": "2024-10-30T10:17:00Z", "duration_seconds": 8.2, "cycle": "Regression-Nov-Week1"},
+        {"test_id": "TEST-003", "test_name": "Password reset flow", "status": "failed", "executed_at": "2024-10-30T10:20:00Z", "duration_seconds": 7.5, "cycle": "Regression-Nov-Week1"},
+        {"test_id": "TEST-004", "test_name": "Dashboard loads with correct metrics", "status": "failed", "executed_at": "2024-10-30T10:25:00Z", "duration_seconds": 9.3, "cycle": "Regression-Nov-Week1"},
+        {"test_id": "TEST-005", "test_name": "Export quality report as PDF", "status": "passed", "executed_at": "2024-10-30T10:30:00Z", "duration_seconds": 17.8, "cycle": "Regression-Nov-Week1"},
+        {"test_id": "TEST-006", "test_name": "Filter incidents by severity", "status": "passed", "executed_at": "2024-10-30T10:35:00Z", "duration_seconds": 13.9, "cycle": "Regression-Nov-Week1"},
+        {"test_id": "TEST-007", "test_name": "Create new incident report", "status": "passed", "executed_at": "2024-10-30T10:40:00Z", "duration_seconds": 15.7, "cycle": "Regression-Nov-Week1"},
+        {"test_id": "TEST-008", "test_name": "Update incident status", "status": "passed", "executed_at": "2024-10-30T10:45:00Z", "duration_seconds": 12.4, "cycle": "Regression-Nov-Week1"},
+        {"test_id": "TEST-009", "test_name": "View sprint velocity trends", "status": "passed", "executed_at": "2024-10-30T10:50:00Z", "duration_seconds": 18.6, "cycle": "Regression-Nov-Week1"},
+        {"test_id": "TEST-010", "test_name": "Test pass rate calculation", "status": "passed", "executed_at": "2024-10-30T10:55:00Z", "duration_seconds": 14.3, "cycle": "Regression-Nov-Week1"},
+        {"test_id": "TEST-011", "test_name": "Role-based access control validation", "status": "passed", "executed_at": "2024-10-30T11:00:00Z", "duration_seconds": 16.5, "cycle": "Regression-Nov-Week1"},
+        {"test_id": "TEST-012", "test_name": "API authentication flow", "status": "passed", "executed_at": "2024-10-30T11:05:00Z", "duration_seconds": 12.8, "cycle": "Regression-Nov-Week1"}
+      ]
+    },
+    {
+      "cycle_name": "Regression-Nov-Week2",
+      "start_date": "2024-11-05",
+      "end_date": "2024-11-11",
+      "executions": [
+        {"test_id": "TEST-001", "test_name": "User login with valid credentials", "status": "passed", "executed_at": "2024-11-06T10:15:00Z", "duration_seconds": 11.9, "cycle": "Regression-Nov-Week2"},
+        {"test_id": "TEST-002", "test_name": "User login with invalid password", "status": "passed", "executed_at": "2024-11-06T10:17:00Z", "duration_seconds": 9.0, "cycle": "Regression-Nov-Week2"},
+        {"test_id": "TEST-003", "test_name": "Password reset flow", "status": "passed", "executed_at": "2024-11-06T10:20:00Z", "duration_seconds": 15.4, "cycle": "Regression-Nov-Week2"},
+        {"test_id": "TEST-004", "test_name": "Dashboard loads with correct metrics", "status": "passed", "executed_at": "2024-11-06T10:25:00Z", "duration_seconds": 22.7, "cycle": "Regression-Nov-Week2"},
+        {"test_id": "TEST-005", "test_name": "Export quality report as PDF", "status": "failed", "executed_at": "2024-11-06T10:30:00Z", "duration_seconds": 6.8, "cycle": "Regression-Nov-Week2"},
+        {"test_id": "TEST-006", "test_name": "Filter incidents by severity", "status": "passed", "executed_at": "2024-11-06T10:35:00Z", "duration_seconds": 14.3, "cycle": "Regression-Nov-Week2"},
+        {"test_id": "TEST-007", "test_name": "Create new incident report", "status": "passed", "executed_at": "2024-11-06T10:40:00Z", "duration_seconds": 16.1, "cycle": "Regression-Nov-Week2"},
+        {"test_id": "TEST-008", "test_name": "Update incident status", "status": "passed", "executed_at": "2024-11-06T10:45:00Z", "duration_seconds": 11.6, "cycle": "Regression-Nov-Week2"},
+        {"test_id": "TEST-009", "test_name": "View sprint velocity trends", "status": "passed", "executed_at": "2024-11-06T10:50:00Z", "duration_seconds": 19.4, "cycle": "Regression-Nov-Week2"},
+        {"test_id": "TEST-010", "test_name": "Test pass rate calculation", "status": "passed", "executed_at": "2024-11-06T10:55:00Z", "duration_seconds": 13.5, "cycle": "Regression-Nov-Week2"},
+        {"test_id": "TEST-011", "test_name": "Role-based access control validation", "status": "passed", "executed_at": "2024-11-06T11:00:00Z", "duration_seconds": 15.9, "cycle": "Regression-Nov-Week2"},
+        {"test_id": "TEST-012", "test_name": "API authentication flow", "status": "passed", "executed_at": "2024-11-06T11:05:00Z", "duration_seconds": 13.2, "cycle": "Regression-Nov-Week2"}
+      ]
+    },
+    {
+      "cycle_name": "Regression-Nov-Week3",
+      "start_date": "2024-11-12",
+      "end_date": "2024-11-18",
+      "executions": [
+        {"test_id": "TEST-001", "test_name": "User login with valid credentials", "status": "passed", "executed_at": "2024-11-13T10:15:00Z", "duration_seconds": 12.1, "cycle": "Regression-Nov-Week3"},
+        {"test_id": "TEST-002", "test_name": "User login with invalid password", "status": "passed", "executed_at": "2024-11-13T10:17:00Z", "duration_seconds": 8.7, "cycle": "Regression-Nov-Week3"},
+        {"test_id": "TEST-003", "test_name": "Password reset flow", "status": "passed", "executed_at": "2024-11-13T10:20:00Z", "duration_seconds": 14.8, "cycle": "Regression-Nov-Week3"},
+        {"test_id": "TEST-004", "test_name": "Dashboard loads with correct metrics", "status": "passed", "executed_at": "2024-11-13T10:25:00Z", "duration_seconds": 21.9, "cycle": "Regression-Nov-Week3"},
+        {"test_id": "TEST-005", "test_name": "Export quality report as PDF", "status": "passed", "executed_at": "2024-11-13T10:30:00Z", "duration_seconds": 18.5, "cycle": "Regression-Nov-Week3"},
+        {"test_id": "TEST-006", "test_name": "Filter incidents by severity", "status": "passed", "executed_at": "2024-11-13T10:35:00Z", "duration_seconds": 14.7, "cycle": "Regression-Nov-Week3"},
+        {"test_id": "TEST-007", "test_name": "Create new incident report", "status": "passed", "executed_at": "2024-11-13T10:40:00Z", "duration_seconds": 16.9, "cycle": "Regression-Nov-Week3"},
+        {"test_id": "TEST-008", "test_name": "Update incident status", "status": "passed", "executed_at": "2024-11-13T10:45:00Z", "duration_seconds": 12.0, "cycle": "Regression-Nov-Week3"},
+        {"test_id": "TEST-009", "test_name": "View sprint velocity trends", "status": "passed", "executed_at": "2024-11-13T10:50:00Z", "duration_seconds": 19.8, "cycle": "Regression-Nov-Week3"},
+        {"test_id": "TEST-010", "test_name": "Test pass rate calculation", "status": "passed", "executed_at": "2024-11-13T10:55:00Z", "duration_seconds": 13.6, "cycle": "Regression-Nov-Week3"},
+        {"test_id": "TEST-011", "test_name": "Role-based access control validation", "status": "passed", "executed_at": "2024-11-13T11:00:00Z", "duration_seconds": 16.2, "cycle": "Regression-Nov-Week3"},
+        {"test_id": "TEST-012", "test_name": "API authentication flow", "status": "passed", "executed_at": "2024-11-13T11:05:00Z", "duration_seconds": 13.8, "cycle": "Regression-Nov-Week3"}
+      ]
+    },
+    {
+      "cycle_name": "Regression-Nov-Week4",
+      "start_date": "2024-11-19",
+      "end_date": "2024-11-25",
+      "executions": [
+        {"test_id": "TEST-001", "test_name": "User login with valid credentials", "status": "passed", "executed_at": "2024-11-20T10:15:00Z", "duration_seconds": 11.6, "cycle": "Regression-Nov-Week4"},
+        {"test_id": "TEST-002", "test_name": "User login with invalid password", "status": "passed", "executed_at": "2024-11-20T10:17:00Z", "duration_seconds": 9.2, "cycle": "Regression-Nov-Week4"},
+        {"test_id": "TEST-003", "test_name": "Password reset flow", "status": "passed", "executed_at": "2024-11-20T10:20:00Z", "duration_seconds": 15.9, "cycle": "Regression-Nov-Week4"},
+        {"test_id": "TEST-004", "test_name": "Dashboard loads with correct metrics", "status": "passed", "executed_at": "2024-11-20T10:25:00Z", "duration_seconds": 23.1, "cycle": "Regression-Nov-Week4"},
+        {"test_id": "TEST-005", "test_name": "Export quality report as PDF", "status": "passed", "executed_at": "2024-11-20T10:30:00Z", "duration_seconds": 19.3, "cycle": "Regression-Nov-Week4"},
+        {"test_id": "TEST-006", "test_name": "Filter incidents by severity", "status": "passed", "executed_at": "2024-11-20T10:35:00Z", "duration_seconds": 15.4, "cycle": "Regression-Nov-Week4"},
+        {"test_id": "TEST-007", "test_name": "Create new incident report", "status": "passed", "executed_at": "2024-11-20T10:40:00Z", "duration_seconds": 17.6, "cycle": "Regression-Nov-Week4"},
+        {"test_id": "TEST-008", "test_name": "Update incident status", "status": "passed", "executed_at": "2024-11-20T10:45:00Z", "duration_seconds": 12.7, "cycle": "Regression-Nov-Week4"},
+        {"test_id": "TEST-009", "test_name": "View sprint velocity trends", "status": "failed", "executed_at": "2024-11-20T10:50:00Z", "duration_seconds": 8.1, "cycle": "Regression-Nov-Week4"},
+        {"test_id": "TEST-010", "test_name": "Test pass rate calculation", "status": "passed", "executed_at": "2024-11-20T10:55:00Z", "duration_seconds": 14.5, "cycle": "Regression-Nov-Week4"},
+        {"test_id": "TEST-011", "test_name": "Role-based access control validation", "status": "passed", "executed_at": "2024-11-20T11:00:00Z", "duration_seconds": 16.8, "cycle": "Regression-Nov-Week4"},
+        {"test_id": "TEST-012", "test_name": "API authentication flow", "status": "passed", "executed_at": "2024-11-20T11:05:00Z", "duration_seconds": 14.1, "cycle": "Regression-Nov-Week4"}
+      ]
+    },
+    {
+      "cycle_name": "Regression-Dec-Week1",
+      "start_date": "2024-11-26",
+      "end_date": "2024-12-02",
+      "executions": [
+        {"test_id": "TEST-001", "test_name": "User login with valid credentials", "status": "passed", "executed_at": "2024-11-27T10:15:00Z", "duration_seconds": 12.4, "cycle": "Regression-Dec-Week1"},
+        {"test_id": "TEST-002", "test_name": "User login with invalid password", "status": "passed", "executed_at": "2024-11-27T10:17:00Z", "duration_seconds": 8.6, "cycle": "Regression-Dec-Week1"},
+        {"test_id": "TEST-003", "test_name": "Password reset flow", "status": "passed", "executed_at": "2024-11-27T10:20:00Z", "duration_seconds": 15.2, "cycle": "Regression-Dec-Week1"},
+        {"test_id": "TEST-004", "test_name": "Dashboard loads with correct metrics", "status": "passed", "executed_at": "2024-11-27T10:25:00Z", "duration_seconds": 22.3, "cycle": "Regression-Dec-Week1"},
+        {"test_id": "TEST-005", "test_name": "Export quality report as PDF", "status": "passed", "executed_at": "2024-11-27T10:30:00Z", "duration_seconds": 18.7, "cycle": "Regression-Dec-Week1"},
+        {"test_id": "TEST-006", "test_name": "Filter incidents by severity", "status": "passed", "executed_at": "2024-11-27T10:35:00Z", "duration_seconds": 14.9, "cycle": "Regression-Dec-Week1"},
+        {"test_id": "TEST-007", "test_name": "Create new incident report", "status": "passed", "executed_at": "2024-11-27T10:40:00Z", "duration_seconds": 17.1, "cycle": "Regression-Dec-Week1"},
+        {"test_id": "TEST-008", "test_name": "Update incident status", "status": "passed", "executed_at": "2024-11-27T10:45:00Z", "duration_seconds": 11.9, "cycle": "Regression-Dec-Week1"},
+        {"test_id": "TEST-009", "test_name": "View sprint velocity trends", "status": "passed", "executed_at": "2024-11-27T10:50:00Z", "duration_seconds": 19.6, "cycle": "Regression-Dec-Week1"},
+        {"test_id": "TEST-010", "test_name": "Test pass rate calculation", "status": "passed", "executed_at": "2024-11-27T10:55:00Z", "duration_seconds": 13.4, "cycle": "Regression-Dec-Week1"},
+        {"test_id": "TEST-011", "test_name": "Role-based access control validation", "status": "passed", "executed_at": "2024-11-27T11:00:00Z", "duration_seconds": 16.6, "cycle": "Regression-Dec-Week1"},
+        {"test_id": "TEST-012", "test_name": "API authentication flow", "status": "passed", "executed_at": "2024-11-27T11:05:00Z", "duration_seconds": 13.7, "cycle": "Regression-Dec-Week1"},
+        {"test_id": "TEST-013", "test_name": "AI insights generation accuracy", "status": "passed", "executed_at": "2024-11-27T11:10:00Z", "duration_seconds": 25.3, "cycle": "Regression-Dec-Week1"},
+        {"test_id": "TEST-014", "test_name": "Anomaly detection algorithm", "status": "passed", "executed_at": "2024-11-27T11:15:00Z", "duration_seconds": 28.9, "cycle": "Regression-Dec-Week1"}
+      ]
+    },
+    {
+      "cycle_name": "Regression-Dec-Week2",
+      "start_date": "2024-12-03",
+      "end_date": "2024-12-09",
+      "executions": [
+        {"test_id": "TEST-001", "test_name": "User login with valid credentials", "status": "passed", "executed_at": "2024-12-04T10:15:00Z", "duration_seconds": 11.7, "cycle": "Regression-Dec-Week2"},
+        {"test_id": "TEST-002", "test_name": "User login with invalid password", "status": "passed", "executed_at": "2024-12-04T10:17:00Z", "duration_seconds": 9.3, "cycle": "Regression-Dec-Week2"},
+        {"test_id": "TEST-003", "test_name": "Password reset flow", "status": "passed", "executed_at": "2024-12-04T10:20:00Z", "duration_seconds": 14.6, "cycle": "Regression-Dec-Week2"},
+        {"test_id": "TEST-004", "test_name": "Dashboard loads with correct metrics", "status": "passed", "executed_at": "2024-12-04T10:25:00Z", "duration_seconds": 21.8, "cycle": "Regression-Dec-Week2"},
+        {"test_id": "TEST-005", "test_name": "Export quality report as PDF", "status": "passed", "executed_at": "2024-12-04T10:30:00Z", "duration_seconds": 17.9, "cycle": "Regression-Dec-Week2"},
+        {"test_id": "TEST-006", "test_name": "Filter incidents by severity", "status": "passed", "executed_at": "2024-12-04T10:35:00Z", "duration_seconds": 14.1, "cycle": "Regression-Dec-Week2"},
+        {"test_id": "TEST-007", "test_name": "Create new incident report", "status": "passed", "executed_at": "2024-12-04T10:40:00Z", "duration_seconds": 16.3, "cycle": "Regression-Dec-Week2"},
+        {"test_id": "TEST-008", "test_name": "Update incident status", "status": "passed", "executed_at": "2024-12-04T10:45:00Z", "duration_seconds": 12.5, "cycle": "Regression-Dec-Week2"},
+        {"test_id": "TEST-009", "test_name": "View sprint velocity trends", "status": "passed", "executed_at": "2024-12-04T10:50:00Z", "duration_seconds": 19.2, "cycle": "Regression-Dec-Week2"},
+        {"test_id": "TEST-010", "test_name": "Test pass rate calculation", "status": "passed", "executed_at": "2024-12-04T10:55:00Z", "duration_seconds": 14.8, "cycle": "Regression-Dec-Week2"},
+        {"test_id": "TEST-011", "test_name": "Role-based access control validation", "status": "passed", "executed_at": "2024-12-04T11:00:00Z", "duration_seconds": 15.7, "cycle": "Regression-Dec-Week2"},
+        {"test_id": "TEST-012", "test_name": "API authentication flow", "status": "passed", "executed_at": "2024-12-04T11:05:00Z", "duration_seconds": 13.4, "cycle": "Regression-Dec-Week2"},
+        {"test_id": "TEST-013", "test_name": "AI insights generation accuracy", "status": "passed", "executed_at": "2024-12-04T11:10:00Z", "duration_seconds": 26.7, "cycle": "Regression-Dec-Week2"},
+        {"test_id": "TEST-014", "test_name": "Anomaly detection algorithm", "status": "passed", "executed_at": "2024-12-04T11:15:00Z", "duration_seconds": 27.4, "cycle": "Regression-Dec-Week2"}
+      ]
+    },
+    {
+      "cycle_name": "Regression-Dec-Week3",
+      "start_date": "2024-12-10",
+      "end_date": "2024-12-16",
+      "executions": [
+        {"test_id": "TEST-001", "test_name": "User login with valid credentials", "status": "passed", "executed_at": "2024-12-11T10:15:00Z", "duration_seconds": 12.0, "cycle": "Regression-Dec-Week3"},
+        {"test_id": "TEST-002", "test_name": "User login with invalid password", "status": "passed", "executed_at": "2024-12-11T10:17:00Z", "duration_seconds": 8.8, "cycle": "Regression-Dec-Week3"},
+        {"test_id": "TEST-003", "test_name": "Password reset flow", "status": "passed", "executed_at": "2024-12-11T10:20:00Z", "duration_seconds": 15.5, "cycle": "Regression-Dec-Week3"},
+        {"test_id": "TEST-004", "test_name": "Dashboard loads with correct metrics", "status": "passed", "executed_at": "2024-12-11T10:25:00Z", "duration_seconds": 22.6, "cycle": "Regression-Dec-Week3"},
+        {"test_id": "TEST-005", "test_name": "Export quality report as PDF", "status": "passed", "executed_at": "2024-12-11T10:30:00Z", "duration_seconds": 18.4, "cycle": "Regression-Dec-Week3"},
+        {"test_id": "TEST-006", "test_name": "Filter incidents by severity", "status": "passed", "executed_at": "2024-12-11T10:35:00Z", "duration_seconds": 14.5, "cycle": "Regression-Dec-Week3"},
+        {"test_id": "TEST-007", "test_name": "Create new incident report", "status": "passed", "executed_at": "2024-12-11T10:40:00Z", "duration_seconds": 16.7, "cycle": "Regression-Dec-Week3"},
+        {"test_id": "TEST-008", "test_name": "Update incident status", "status": "passed", "executed_at": "2024-12-11T10:45:00Z", "duration_seconds": 11.3, "cycle": "Regression-Dec-Week3"},
+        {"test_id": "TEST-009", "test_name": "View sprint velocity trends", "status": "passed", "executed_at": "2024-12-11T10:50:00Z", "duration_seconds": 19.9, "cycle": "Regression-Dec-Week3"},
+        {"test_id": "TEST-010", "test_name": "Test pass rate calculation", "status": "passed", "executed_at": "2024-12-11T10:55:00Z", "duration_seconds": 13.1, "cycle": "Regression-Dec-Week3"},
+        {"test_id": "TEST-011", "test_name": "Role-based access control validation", "status": "passed", "executed_at": "2024-12-11T11:00:00Z", "duration_seconds": 16.4, "cycle": "Regression-Dec-Week3"},
+        {"test_id": "TEST-012", "test_name": "API authentication flow", "status": "passed", "executed_at": "2024-12-11T11:05:00Z", "duration_seconds": 14.0, "cycle": "Regression-Dec-Week3"},
+        {"test_id": "TEST-013", "test_name": "AI insights generation accuracy", "status": "passed", "executed_at": "2024-12-11T11:10:00Z", "duration_seconds": 25.8, "cycle": "Regression-Dec-Week3"},
+        {"test_id": "TEST-014", "test_name": "Anomaly detection algorithm", "status": "passed", "executed_at": "2024-12-11T11:15:00Z", "duration_seconds": 28.2, "cycle": "Regression-Dec-Week3"},
+        {"test_id": "TEST-015", "test_name": "SSO authentication integration", "status": "passed", "executed_at": "2024-12-11T11:20:00Z", "duration_seconds": 19.5, "cycle": "Regression-Dec-Week3"}
+      ]
+    },
+    {
+      "cycle_name": "Regression-Dec-Week4",
+      "start_date": "2024-12-17",
+      "end_date": "2024-12-23",
+      "executions": [
+        {"test_id": "TEST-001", "test_name": "User login with valid credentials", "status": "passed", "executed_at": "2024-12-18T10:15:00Z", "duration_seconds": 11.5, "cycle": "Regression-Dec-Week4"},
+        {"test_id": "TEST-002", "test_name": "User login with invalid password", "status": "passed", "executed_at": "2024-12-18T10:17:00Z", "duration_seconds": 9.1, "cycle": "Regression-Dec-Week4"},
+        {"test_id": "TEST-003", "test_name": "Password reset flow", "status": "passed", "executed_at": "2024-12-18T10:20:00Z", "duration_seconds": 14.9, "cycle": "Regression-Dec-Week4"},
+        {"test_id": "TEST-004", "test_name": "Dashboard loads with correct metrics", "status": "passed", "executed_at": "2024-12-18T10:25:00Z", "duration_seconds": 21.4, "cycle": "Regression-Dec-Week4"},
+        {"test_id": "TEST-005", "test_name": "Export quality report as PDF", "status": "passed", "executed_at": "2024-12-18T10:30:00Z", "duration_seconds": 18.1, "cycle": "Regression-Dec-Week4"},
+        {"test_id": "TEST-006", "test_name": "Filter incidents by severity", "status": "passed", "executed_at": "2024-12-18T10:35:00Z", "duration_seconds": 14.8, "cycle": "Regression-Dec-Week4"},
+        {"test_id": "TEST-007", "test_name": "Create new incident report", "status": "passed", "executed_at": "2024-12-18T10:40:00Z", "duration_seconds": 16.5, "cycle": "Regression-Dec-Week4"},
+        {"test_id": "TEST-008", "test_name": "Update incident status", "status": "passed", "executed_at": "2024-12-18T10:45:00Z", "duration_seconds": 12.1, "cycle": "Regression-Dec-Week4"},
+        {"test_id": "TEST-009", "test_name": "View sprint velocity trends", "status": "passed", "executed_at": "2024-12-18T10:50:00Z", "duration_seconds": 19.7, "cycle": "Regression-Dec-Week4"},
+        {"test_id": "TEST-010", "test_name": "Test pass rate calculation", "status": "passed", "executed_at": "2024-12-18T10:55:00Z", "duration_seconds": 13.9, "cycle": "Regression-Dec-Week4"},
+        {"test_id": "TEST-011", "test_name": "Role-based access control validation", "status": "passed", "executed_at": "2024-12-18T11:00:00Z", "duration_seconds": 16.1, "cycle": "Regression-Dec-Week4"},
+        {"test_id": "TEST-012", "test_name": "API authentication flow", "status": "passed", "executed_at": "2024-12-18T11:05:00Z", "duration_seconds": 13.6, "cycle": "Regression-Dec-Week4"},
+        {"test_id": "TEST-013", "test_name": "AI insights generation accuracy", "status": "passed", "executed_at": "2024-12-18T11:10:00Z", "duration_seconds": 26.2, "cycle": "Regression-Dec-Week4"},
+        {"test_id": "TEST-014", "test_name": "Anomaly detection algorithm", "status": "passed", "executed_at": "2024-12-18T11:15:00Z", "duration_seconds": 27.9, "cycle": "Regression-Dec-Week4"},
+        {"test_id": "TEST-015", "test_name": "SSO authentication integration", "status": "passed", "executed_at": "2024-12-18T11:20:00Z", "duration_seconds": 18.7, "cycle": "Regression-Dec-Week4"}
+      ]
+    }
+  ]
+}

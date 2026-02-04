@@ -1,0 +1,17 @@
+.env
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+.DS_Store
+*.egg-info/
+dist/
+build/
+.langgraph_api/
+uv.lock
+
+# LangSmith trace exports
+traces/
+threads/
+*.trace.json
